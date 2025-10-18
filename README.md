@@ -28,8 +28,11 @@ Get the dataset --> Get it to our computer --> Preprocess the data --> Split int
 
 - Everytime I come back to this lab problem, I can understand all the codes, but can't actually type them. I think that should be fine, since understanding what the code first should be prioritized. 
 
-Summary: Input: Dataset from the Internet
-         Output: A linear regression model that predict the target's value from a most correlated feature. 
+Summary:
+
++ Input: Dataset from the Internet
+
++ Output: A linear regression model that predict the target's value from a most correlated feature.
 
 
 ## LAB #2: MULTIPLE LINEAR REGRESSION
@@ -59,6 +62,10 @@ Summary: Input: Dataset from the Internet
 
 - This one took FOREVER for me to get through. Not just the coding part (I could just copy from the lab), but because I had a hard time understanding the code. Also it was so long, 150+ lines of codes.
 
-Summary: Input: Dataset
-         Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression. 
-         EX: We might literally use 5 features to predict 3 targets.
+Summary:
+
++ Input: Dataset
+
++ Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression.
+
+EX: We might literally use 5 features to predict 3 targets.
