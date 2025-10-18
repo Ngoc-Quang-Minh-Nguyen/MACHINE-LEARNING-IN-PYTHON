@@ -9,9 +9,13 @@
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
 <details> <summary>
 - There were a lot of new terms I had to learn: </summary>
+
 1. read_csv: This is the bridge that helps datasets from the Internet to be used in our local machine.
+
 2. hist: Making a histogram that can then be graphed into a barchart thanks to matplotlib.
+
 3. scatter: A scatter plot that show points on an xy-graph, but this time is between two feature.
+
 4. reshape: On the process of inserting the data on the LinearRegression(), the <fit> by default requires the  value to be at least a 2D array (n-observations, n-features). But because on this particular dataset the X is 1D, the reshape allows the X to turn 1D to 2D. Not sure if I'll ever be able to use it in real life though.
 </details>
 - Overall, the process of this lab problem is as follows:
