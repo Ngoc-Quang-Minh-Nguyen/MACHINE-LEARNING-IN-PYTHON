@@ -7,12 +7,13 @@
 ## LAB #1: SIMPLE LINEAR REGRESSION
 - I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
-- There were a lot of new terms I had to learn:
+<details> <summary>
+- There were a lot of new terms I had to learn: </summary>
 1. read_csv: This is the bridge that helps datasets from the Internet to be used in our local machine.
 2. hist: Making a histogram that can then be graphed into a barchart thanks to matplotlib.
 3. scatter: A scatter plot that show points on an xy-graph, but this time is between two feature.
 4. reshape: On the process of inserting the data on the LinearRegression(), the <fit> by default requires the  value to be at least a 2D array (n-observations, n-features). But because on this particular dataset the X is 1D, the reshape allows the X to turn 1D to 2D. Not sure if I'll ever be able to use it in real life though.
-
+</details>
 - Overall, the process of this lab problem is as follows:
 Get the dataset --> Get it to our computer --> Preprocess the data --> Split into testing and training data --> Use the training data on the model --> Get the prediction data from the model ---> Compare it with the testing data to get our evaluation of the model.
 
@@ -24,6 +25,7 @@ Summary: Input: Dataset from the Internet
 ## LAB #2: MULTIPLE LINEAR REGRESSION
 - Still simple concept. It's like having more features to predict a target, that's all.
 - The hard part for me on this lab was trying to understand what the code was doing. Compare to LAB #1, this one felt like an actual boss when I first encounter it.
+
 <details> 
 <summary> This time I'll try to explain the code through each process, one by one: </summary>
 
