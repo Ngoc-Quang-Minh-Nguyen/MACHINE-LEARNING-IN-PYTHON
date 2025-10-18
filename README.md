@@ -20,3 +20,31 @@ Get the dataset --> Get it to our computer --> Preprocess the data --> Split int
 
 Summary: Input: Dataset from the Internet
          Output: A linear regression model that predict the target's value from a most correlated feature. 
+
+## LAB #2: MULTIPLE LINEAR REGRESSION
+- Still simple concept. It's like having more features to predict a target, that's all.
+- The hard part for me on this lab was trying to understand what the code was doing. Compare to LAB #1, this one felt like an actual boss when I first encounter it.
+<details> 
+<summary> This time I'll try to explain the code through each process, one by one: </summary>
+
+1. Dataset from Internet to our computer: The exact same.
+
+2. Preprocess the data <Part 1>: Now for the model, the data needs to be numerical (and relevant, not it right now), so any redundant or features that won't be useful for the model must be transformed, or removed. Categories can be transformed into numerical by using certain ways, but for this lab, we would remove it. The next step is also a a part of preprocessing process: Finding the correlation between features and targets by making scatter plots.
+
+3. Preprocess the data <Part 2>: This one is a bit hard initally for me cause of <iloc>, but then it makes sense eventually. X is the entire two columns' data, and y is the 3rd column. The reason this is <Part 2> is because we have to <Standardize> the data, not just removing redundant or categorical features. The formula behind this... is annoying to learn. Basically we would turn the data so that it would have <mean = 0> and <Standard Deviation = 1>. And then X' = (X-m)/S, I think. Consider that a hint...
+
+4. Split into testing and training data
+
+5. Train the data on the model: The model is still called LinearRegression(), just having more features than the last lab.
+
+6. Get the coefficients and intercepts of the model's training. This is the <Standard> version, meaning that the values here are made from a standardized dataset.
+
+7. <Optional> Get the coefficients and intercepts of the actual, unstandardized data <Task 12>. This is probably for when we need to describe the relationship between the actual features and targets. The values on the <standard> version won't work because the data was not the same with the original version. The whole formula thing is like <y = mx' + n>, but this time substitute it with <x' = (x=-m)/S>.
+
+8. Plot the model: Involves plotting 3 values, which requires a 3D regression plane. Also plotting each feature with the target, so 2 simple linear regression plot as well.
+</details>
+- This one took FOREVER for me to get through. Not just the coding part (I could just copy from the lab), but because I had a hard time understanding the code. Also it was so long, 150+ lines of codes.
+
+Summary: Input: Dataset
+         Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression. 
+         EX: We might literally use 5 features to predict 3 targets.
