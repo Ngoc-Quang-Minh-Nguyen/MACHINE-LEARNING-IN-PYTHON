@@ -1,12 +1,16 @@
 # MACHINE LEARNING IN PYTHON - THE COURSERA COURSE I LEARNT
+
 - Hello. This is going to be what I've learnt, mostly lab-related codes, on models of machine learning.
 - This is also going to be my first time trying to use Git Hub, so I hope this will be interesting.
 - Throughout my published lab coding problems and my comments for those, I will explain them all in this file (Though I think that's the purpose of this README.md file anyway...)
 - Let's get to it! Also it's been months since the last time I've touch some of the lab problems and codes, so consider this as a revision of the things I've learnt, and what are some of the most important things I learnt from these.
 
+
 ## LAB #1: SIMPLE LINEAR REGRESSION
+
 - I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
+
 <details> <summary>
 - There were a lot of new terms I had to learn: </summary>
 
@@ -18,6 +22,7 @@
 
 4. reshape: On the process of inserting the data on the LinearRegression(), the <fit> by default requires the  value to be at least a 2D array (n-observations, n-features). But because on this particular dataset the X is 1D, the reshape allows the X to turn 1D to 2D. Not sure if I'll ever be able to use it in real life though.
 </details>
+
 - Overall, the process of this lab problem is as follows:
 Get the dataset --> Get it to our computer --> Preprocess the data --> Split into testing and training data --> Use the training data on the model --> Get the prediction data from the model ---> Compare it with the testing data to get our evaluation of the model.
 
@@ -26,7 +31,9 @@ Get the dataset --> Get it to our computer --> Preprocess the data --> Split int
 Summary: Input: Dataset from the Internet
          Output: A linear regression model that predict the target's value from a most correlated feature. 
 
+
 ## LAB #2: MULTIPLE LINEAR REGRESSION
+
 - Still simple concept. It's like having more features to predict a target, that's all.
 - The hard part for me on this lab was trying to understand what the code was doing. Compare to LAB #1, this one felt like an actual boss when I first encounter it.
 
@@ -49,6 +56,7 @@ Summary: Input: Dataset from the Internet
 
 8. Plot the model: Involves plotting 3 values, which requires a 3D regression plane. Also plotting each feature with the target, so 2 simple linear regression plot as well.
 </details>
+
 - This one took FOREVER for me to get through. Not just the coding part (I could just copy from the lab), but because I had a hard time understanding the code. Also it was so long, 150+ lines of codes.
 
 Summary: Input: Dataset
