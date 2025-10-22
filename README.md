@@ -105,8 +105,21 @@ Output: Dataset with less dimensions.
 
 </details>
 
+<details>
+<summary> LAB #4: t-SNE and UMAP </summary>
+
+- These two dimensional reduction algorithm are competitors to PCA.
+- Once again, the explanaiton of the code can be found in the code file. 
+- However, the explanation of these two algorithm and how it differs from each other and PCA can actually be summarized by this table below, so this outline is kinda...unnecessary.
+- See you at other labs then :)))
+</details>
+
+
 
 ### Dimensionality reduction comparison: PCA vs t-SNE vs UMAP
+
+<details>
+<summary><strong>PCA vs t-SNE vs UMAP (click to expand)</strong></summary>
 
 <div style="overflow-x:auto;"> 
 <table style="border-collapse:collapse; width:100%; max-width:100%; font-family:Arial,Helvetica,sans-serif;">
@@ -173,7 +186,9 @@ Output: Dataset with less dimensions.
 			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">When you want to explore local structure and identify clusters in the data</td>
 			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">When you want to preserve both local and global structure, especially in complex, large datasets</td>
 		</tr>
-	</tbody>
-</table>
-</div>
+		</tbody>
+	</table>
+	</div>
+
+	</details>
 
