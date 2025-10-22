@@ -7,6 +7,9 @@
 
 
 <details>
+<summary><strong>PART 1: LINEAR REGRESSION</strong></summary>
+
+<details>
 <summary>LAB #1: SIMPLE LINEAR REGRESSION</summary>
 
 
@@ -72,10 +75,14 @@ Summary:
 Input: Dataset
 Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression.
 
+
 EX: We might literally use 5 features to predict 3 targets.
 
 </details>
 
+
+<details>
+<summary><strong>PART 2: REDUCE DIMENSION</strong></summary>
 
 <details>
 <summary> LAB #3: PCA (PRINCIPLE COMPONENTS ANALYSIS) </summary>
@@ -191,4 +198,6 @@ Output: Dataset with less dimensions.
 	</div>
 
 	</details>
+
+</details>
 
