@@ -104,3 +104,76 @@ Input: Dataset with too many dimensions
 Output: Dataset with less dimensions.
 
 </details>
+
+
+### Dimensionality reduction comparison: PCA vs t-SNE vs UMAP
+
+<div style="overflow-x:auto;"> 
+<table style="border-collapse:collapse; width:100%; max-width:100%; font-family:Arial,Helvetica,sans-serif;">
+	<thead>
+		<tr>
+			<th style="text-align:left; padding:12px; background:#f0f0f0; border:1px solid #ddd;">Feature</th>
+			<th style="text-align:left; padding:12px; background:linear-gradient(90deg,#d81b60,#ff4081); color:#fff; border:1px solid #ddd;">PCA</th>
+			<th style="text-align:left; padding:12px; background:linear-gradient(90deg,#00bcd4,#18ffff); color:#fff; border:1px solid #ddd;">t-SNE</th>
+			<th style="text-align:left; padding:12px; background:linear-gradient(90deg,#8bc34a,#c5e1a5); color:#000; border:1px solid #ddd;">UMAP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Type of method</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Linear method (uses linear transformations)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Non-linear method (focuses on local structure)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Non-linear method (focuses on both local and global structure)</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Focus</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Maximizing variance (global structure)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Preserving local structure (neighborhoods)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Preserving both local and global structure</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Preserves</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Variance (overall spread of the data)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Local relationships (similarity between neighbors)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Local and global relationships (overall shape and clusters)</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Output</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Linear transformation of the data into principal components</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">2D or 3D representation that reflects local similarities</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">2D or 3D representation with more global structure</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Scalability</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Highly scalable (works well with large datasets)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Computationally expensive on large datasets</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Scalable, faster than t-SNE, works well with large datasets</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Speed</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Fast</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Slow, especially for large datasets</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Faster than t-SNE, more scalable</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Reproducibility</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Very stable and deterministic</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Results can vary with different runs</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">More stable than t-SNE, but less deterministic than PCA</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Interpretability</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Results are easy to interpret (principal components)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Results are harder to interpret (abstract relationships)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Results are more interpretable than t-SNE, but not as clear as PCA</td>
+		</tr>
+		<tr>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">Best for</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">When you want to preserve overall variance and reduce dimensionality linearly (e.g., for feature extraction, noise reduction)</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">When you want to explore local structure and identify clusters in the data</td>
+			<td style="padding:10px; border:1px solid #eee; vertical-align:top;">When you want to preserve both local and global structure, especially in complex, large datasets</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
