@@ -75,3 +75,28 @@ EX: We might literally use 5 features to predict 3 targets.
 
 </details>
 
+
+<details>
+<summary> LAB #3: PCA (PRINCIPLE COMPONENTS ANALYSIS) </summary>
+
+- Now we are getting to the interesting part. Reduce dimension algorithm.
+- Imagine a dataset that is just a table. That is 2D. What if a 3D, 4D, 5D,...? How would we even begin to preprocess the data in the first place?
+- This is where PCA comes in clutch. It reduces the dimensions of the data without losing much of the data's information, making the preprocessing stage much easier to deal with.
+
+<details> <summary>Most of the instructions of how the code works is already in the code, so for this outline, I will try to explain how PCA works: </summary>
+
+- Given a dataset, let's say that it's already been graphed, PCA will try to find a certain line that can capture the HIGHEST AMOUNT OF VARIANCE. This line is called the First Principal Component (PC1), and it represents the new axis that the points should be projected onto. We can visualize what the line looks like by observing the locations of the projected points (like the red 'X' markers on the graph).
+
+- If we choose a PCA dimension of 2, we need a second line to be perfectly perpendicular (orthogonal) to the first line. This second line is the Second Principal Component (PC2).
+
+- Together, the PC1 and PC2 axes form a new coordinate system that replaces the old axis (Feature 1 and Feature 2). The final, reduced dataset consists of the points' new coordinates on these PC axes.
+</details>
+
+- I hope that should be good to understand for later uses. Be honest, we're probably just gonna come back to this lab if we ever need to use this model again, and just copy the parts that we need... Or DO WE???
+- There might be a chance that we will only use a single line of code to apply the entire PCA model...we'll get to that point eventually. 
+- Anyway that is all for this lab. I'll start to explain what the code does in the actuall code file, and this outline is just going to explain the process or theory behind each model. 
+- Summary:
+Input: Dataset with too many dimensions
+Output: Dataset with less dimensions.
+
+</details>
