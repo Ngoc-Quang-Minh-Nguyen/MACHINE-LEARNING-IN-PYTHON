@@ -29,6 +29,7 @@
 Get the dataset --> Get it to our computer --> Preprocess the data --> Split into testing and training data --> Use the training data on the model --> Get the prediction data from the model ---> Compare it with the testing data to get our evaluation of the model.
 
 - Everytime I come back to this lab problem, I can understand all the codes, but can't actually type them. I think that should be fine, since understanding what the code first should be prioritized.
+- Everytime I come back to this lab problem, I can understand all the codes, but can't actually type them. I think that should be fine, since understanding what the code first should be prioritized.
 
 Summary:
 
@@ -84,6 +85,7 @@ EX: We might literally use 5 features to predict 3 targets.
 
 <details> <summary> Most of the instructions of how the code works are already in the code; here is a short outline of PCA: </summary>
 
+- Given a dataset that's been graphed, PCA finds a line that captures the highest amount of variance (PC1). Points projected onto this line define the new coordinate.
 - Given a dataset that's been graphed, PCA finds a line that captures the highest amount of variance (PC1). Points projected onto this line define the new coordinate.
 
 - If choosing two components, a second principal component (PC2) is chosen orthogonal to PC1, and together they form a new coordinate system.
