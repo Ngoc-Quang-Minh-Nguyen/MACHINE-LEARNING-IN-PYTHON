@@ -1,4 +1,4 @@
-# MACHINE LEARNING IN PYTHON - THE COURSERA COURSE I LEARNT
+﻿# MACHINE LEARNING IN PYTHON - THE COURSERA COURSE I LEARNT
 
 - Hello. This is going to be what I've learnt, mostly lab-related codes, on models of machine learning.
 - This is also going to be my first time trying to use Git Hub, so I hope this will be interesting.
@@ -6,7 +6,8 @@
 - Let's get to it! Also it's been months since the last time I've touch some of the lab problems and codes, so consider this as a revision of the things I've learnt, and what are some of the most important things I learnt from these.
 
 
-## LAB #1: SIMPLE LINEAR REGRESSION
+<details>
+<summary>LAB #1: SIMPLE LINEAR REGRESSION</summary>
 
 - I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
@@ -30,12 +31,14 @@ Get the dataset --> Get it to our computer --> Preprocess the data --> Split int
 
 Summary:
 
-+ Input: Dataset from the Internet
+Input: Dataset from the Internet
 
-+ Output: A linear regression model that predict the target's value from a most correlated feature.
+Output: A linear regression model that predict the target's value from a most correlated feature.
 
+</details>
 
-## LAB #2: MULTIPLE LINEAR REGRESSION
+<details>
+<summary>LAB #2: MULTIPLE LINEAR REGRESSION</summary>
 
 - Still simple concept. It's like having more features to predict a target, that's all.
 - The hard part for me on this lab was trying to understand what the code was doing. Compare to LAB #1, this one felt like an actual boss when I first encounter it.
@@ -64,8 +67,11 @@ Summary:
 
 Summary:
 
-+ Input: Dataset
+Input: Dataset
 
-+ Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression.
+Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression.
 
 EX: We might literally use 5 features to predict 3 targets.
+
+</details>
+
