@@ -71,7 +71,7 @@ Output: More linear regression between 2 features and 1 target. Note that this c
 EX: We might literally use 5 features to predict 3 targets.
 
 </details>
-
+</details>
 
 <details>
 <summary><strong>PART 2: REDUCE DIMENSION</strong></summary>
@@ -179,7 +179,6 @@ Output: Dataset with less dimensions.
 	</table>
 	</div>
 
-	</details>
-
 </details>
-
+</details>
+</details>
