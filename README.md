@@ -9,6 +9,7 @@
 <details>
 <summary>LAB #1: SIMPLE LINEAR REGRESSION</summary>
 
+
 - I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
 
@@ -40,6 +41,7 @@ Output: A linear regression model that predict the target's value from a most co
 <details>
 <summary>LAB #2: MULTIPLE LINEAR REGRESSION</summary>
 
+
 - Still simple concept. It's like having more features to predict a target, that's all.
 - The hard part for me on this lab was trying to understand what the code was doing. Compare to LAB #1, this one felt like an actual boss when I first encounter it.
 
@@ -68,7 +70,6 @@ Output: A linear regression model that predict the target's value from a most co
 Summary:
 
 Input: Dataset
-
 Output: More linear regression between 2 features and 1 target. Note that this can go in many ways, now that we learn about multiple linear regression.
 
 EX: We might literally use 5 features to predict 3 targets.
@@ -78,6 +79,7 @@ EX: We might literally use 5 features to predict 3 targets.
 
 <details>
 <summary> LAB #3: PCA (PRINCIPLE COMPONENTS ANALYSIS) </summary>
+
 
 - Now we are getting to the interesting part. Reduce dimension algorithm.
 - Imagine a dataset that is just a table. That is 2D. What if a 3D, 4D, 5D,...? How would we even begin to preprocess the data in the first place?
@@ -95,7 +97,9 @@ EX: We might literally use 5 features to predict 3 targets.
 - I hope that should be good to understand for later uses. Be honest, we're probably just gonna come back to this lab if we ever need to use this model again, and just copy the parts that we need... Or DO WE???
 - There might be a chance that we will only use a single line of code to apply the entire PCA model...we'll get to that point eventually. 
 - Anyway that is all for this lab. I'll start to explain what the code does in the actuall code file, and this outline is just going to explain the process or theory behind each model. 
-- Summary:
+
+Summary:
+
 Input: Dataset with too many dimensions
 Output: Dataset with less dimensions.
 
