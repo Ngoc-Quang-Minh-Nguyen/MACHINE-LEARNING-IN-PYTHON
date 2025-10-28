@@ -12,7 +12,8 @@
 <details>
 <summary>LAB #1: SIMPLE LINEAR REGRESSION</summary>
 
-- I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
+
+- I think t n- I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
 
 <details><summary>There were a lot of new terms I had to learn: </summary>
@@ -71,10 +72,10 @@ Output: More linear regression between 2 features and 1 target. Note that this c
 EX: We might literally use 5 features to predict 3 targets.
 
 </details>
-</details>
+
 
 <details>
-<summary><strong>PART 2: REDUCE DIMENSION</strong></summary>
+<summary><strong>PART 2: REDUCE DIMENSION</stro</details>ng></summary>
 
 <details>
 <summary>LAB #3: PCA (PRINCIPLE COMPONENTS ANALYSIS)</summary>
@@ -104,10 +105,7 @@ Output: Dataset with less dimensions.
 
 - These two dimensional reduction algorithms are competitors to PCA.
 - The explanation of the code can be found in the code file.
-- The differences between t-SNE, UMAP and PCA are summarized in the table below.
-
-
-<details>
+s>
 <summary><strong>Dimensionality reduction comparison: PCA vs t-SNE vs UMAP</strong></summary>
 
 <div style="overflow-x:auto;"> 
@@ -179,6 +177,39 @@ Output: Dataset with less dimensions.
 	</table>
 	</div>
 
+	</details>
+
 </details>
+
+<details>
+<summary><strong>PART 3: CLUSTERING</strong></summary>
+
+<details>
+<summary>LAB #5: K-MEANS CLUSTERING</summary>
+
+- I kinda like this lab. It is visually intuitive and the plots make the behavior of the algorithm easy to understand.
+- K-Means partitions data into k non-overlapping clusters. Each cluster has a centroid and the algorithm iteratively assigns points to the nearest centroid and recomputes centroids until convergence.
+- The method assumes roughly spherical, similarly sized clusters and is sensitive to outliers.
+
+Examples / notes:
+
+1. Choose k (number of clusters) up front — there are heuristics to help with this (see below).
+2. K-Means tries to minimize within-cluster variance (sum of squared distances to centroids).
+3. It works well on well-separated clusters and scales to moderately large datasets.
+
+Important caveats:
+
+- Assumes clusters are roughly convex and similarly sized.
+- Sensitive to outliers and initialization (use multiple restarts / k-means++ initialization).
+
+- Heuristic techniques for choosing k and evaluating clustering quality:
+
+	- Silhouette analysis
+
+	- Elbow method
+
+	- Davies-Bouldin index
+
 </details>
+
 </details>
