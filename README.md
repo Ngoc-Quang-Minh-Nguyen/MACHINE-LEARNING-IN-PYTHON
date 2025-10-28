@@ -24,7 +24,8 @@
 
 3. scatter: A scatter plot that show points on an xy-graph, but this time is between two feature.
 
-4. reshape: On the process of inserting the data on the LinearRegression(), the <fit> by default requires the  value to be at least a 2D array (n-observations, n-features). But because on this particular dataset the X is 1D, the reshape allows the X to turn 1D to 2D. Not sure if I'll ever be able to use it in real life though. </details>
+4. reshape: On the process of inserting the data on the LinearRegression(), the <fit> by default requires the  value to be at least a 2D array (n-observations, n-features). But because on this particular dataset the X is 1D, the reshape allows the X to turn 1D to 2D. Not sure if I'll ever be able to use it in real life though. 
+</details>
 
 - Overall, the process of this lab problem is as follows:
 Get the dataset --> Get it to our computer --> Preprocess the data --> Split into testing and training data --> Use the training data on the model --> Get the prediction data from the model ---> Compare it with the testing data to get our evaluation of the model.
@@ -71,6 +72,8 @@ Output: More linear regression between 2 features and 1 target. Note that this c
 
 EX: We might literally use 5 features to predict 3 targets.
 
+</details>
+</details>
 </details>
 
 
