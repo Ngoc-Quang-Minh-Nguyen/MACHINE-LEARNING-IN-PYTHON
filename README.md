@@ -75,7 +75,7 @@ EX: We might literally use 5 features to predict 3 targets.
 
 
 <details>
-<summary><strong>PART 2: REDUCE DIMENSION</stro</details>ng></summary>
+<summary><strong>PART 2: REDUCE DIMENSION</strong></summary>
 
 <details>
 <summary>LAB #3: PCA (PRINCIPLE COMPONENTS ANALYSIS)</summary>
@@ -177,7 +177,7 @@ s>
 	</table>
 	</div>
 
-	</details>
+</details>
 
 </details>
 
