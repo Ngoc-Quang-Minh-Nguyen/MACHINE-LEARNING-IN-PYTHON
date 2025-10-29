@@ -216,3 +216,30 @@ Important caveats:
 </details>
 
 </details>
+
+<details>
+<summary><strong>PART 4: CLASSIFICATION</strong></summary>
+
+- This is related to supervised learning model. It uses fully trained model to predict labels in new data. It aims to predict data in the correct context when answering a specific question. Basically we have labels, new data goes to those labels by predicting which one it belongs to.
+
+- As data is input into the model, the model adjusts the data to fit the algorithm and classifies it accordingly, defining the input and the predicted output. So it's like we have a framework of a model, and that frame can be shaped based on the data input that we have, creating newly shaped data predicted output.
+
+- Several important applications of this model: Relation between features and targets, email filterings, speech-to-text,...
+For instance:
+- Churn prediction is when you use machine learning classification to predict whether a customer will discontinue a service. 
+- Customer segmentation is when you use classification to predict the category to which a customer belongs.
+
+- Binary classification is a model that only predict two possible results.
+- Some common machine learning classification algorithms include Naive Bayes, Logistic Regression, Decision Trees, K-Nearest Neighbors, Support Vector Machines, and Neural Networks.
+- Algorithms like Logistic Regression, KNN, and Decision Trees can learn how to distinguish multiple classes.
+- Strategies for extending binary classifiers to handle multiple classes include one-versus-all classification and one-versus-one classification. (OvA is like a classifier differentiate their own data and the rest; OvO have each classifier compare the data to be either A or B.)
+<details>
+<summary>LAB #6: MULTICLASS CLASSIFICATION</summary>
+
+- Even though this lab is suppose to be more focused on the model itself, the most important part of this lab that lasts in thee future is going to be: Preprocess the data.
+- Specifically, standardize the numerical data and use one-hot encoding for categorical datas.
+- One-hot encoding is mostly for features, but we can also do that to the targets if the labels are also categoricals. For instace, we don't need one-hot encoding on churn prediction, cause it is just 0 and 1.
+- Anyway the process is still pretty much the same: Get the data -> Preprocess the data (either by standardize, remove irrelevant data, one-hot encoding,...) --> Split into x and y --> Turn it to training and testing data --> Train the model --> Evaluate the model (by getting the predicted result and compare it with the actual result)
+- For this lab, there is an actual function that summarizes this entire process, I'll put up there as well as the original lab problem. Once again, focus on the process, and then the actual code syntax.
+</details>
+</details>
