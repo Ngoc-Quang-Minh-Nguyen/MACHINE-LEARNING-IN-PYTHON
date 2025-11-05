@@ -251,3 +251,15 @@ For instance:
 - There is something interesting about the model: We get to choose the max_depth of the model to figure out if we can optimize its accuracy. In the lab, we had to repeat the block of code to try max_depth =3. In the future, when we learn about the "pipeline", we don't have to repeat and do that thing anymore. Glad to look back and realize that certain codes can be optimized in the future.
 - Also, kinda worry about the preprocess the data part. The fact that real life data is gonna be complex, hard to figure out the important data that needs to be kept, the ones that are irrelevant, and figure out the correlation between the features and the target,... Let's hope that by the time I sent all of my labs, I am gonna be more confident in making a ML model.
 </details>
+
+<details>
+<summary> LAB #8: REGRESSION TREE </summary>
+
+- This model is different from decision tree. For decision tree, it is for predicting discrete classes. For this model, it is predicting continuous model.
+- In decision tree, the target is categorical. In regression tree, the target is a continuous value.
+- When a decision tree is used to solve regression problem, it is called Regression Tree.
+- Regression trees are created by recursively splitting the dataset into subsets to maximize information gained from data splitting.
+- This model tries to pick features that minimized errors between actual values and predicted ones.
+- Also the accuracy of the model is based on MSE and R^2 score. We want lower MSE and higher R^2 score for a good model.
+</details>
+</details>
