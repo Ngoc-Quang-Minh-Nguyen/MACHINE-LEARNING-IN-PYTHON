@@ -242,4 +242,12 @@ For instance:
 - Anyway the process is still pretty much the same: Get the data -> Preprocess the data (either by standardize, remove irrelevant data, one-hot encoding,...) --> Split into x and y --> Turn it to training and testing data --> Train the model --> Evaluate the model (by getting the predicted result and compare it with the actual result)
 - For this lab, there is an actual function that summarizes this entire process, I'll put up there as well as the original lab problem. Once again, focus on the process, and then the actual code syntax.
 </details>
+
+<details>
+<summary> LAB #7: DECISION TREE </summary>
+
+- The model kinda looks like a tree, and it's one of the type that are like, P(A) P(B) P(A u B), you know. 
+- Anyway the overall process does not change much, other than we have a new approach to turn categorical label back to numerical: LabelEncoder(), instead of using OneHotEncoding. Honestly when I learn this the first time, had a hard time figuring out when to use either of these for specific data, and here's my answer: Ask AI if this data should be encoded by this or that:)
+- There is something interesting about the model: We get to choose the max_depth of the model to figure out if we can optimize its accuracy. In the lab, we had to repeat the block of code to try max_depth =3. In the future, when we learn about the "pipeline", we don't have to repeat and do that thing anymore. Glad to look back and realize that certain codes can be optimized in the future.
+- Also, kinda worry about the preprocess the data part. The fact that real life data is gonna be complex, hard to figure out the important data that needs to be kept, the ones that are irrelevant, and figure out the correlation between the features and the target,... Let's hope that by the time I sent all of my labs, I am gonna be more confident in making a ML model.
 </details>
