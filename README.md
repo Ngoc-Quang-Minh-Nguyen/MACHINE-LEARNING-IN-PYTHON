@@ -298,5 +298,8 @@ Applications:
 - The prediction of the value will leads to either of those K classes.
 - To find an optimal k value, you can test a range of values and then measure the accuracy.
 - Remember to normalize and preprocess the data so that the model works the best.
+- If the classes are not equal, one dominates another, that would undermine this model. To deal with this, the simplest way is standardization. Also sensitive to noisy datas.
+- Keeping only relevant features lowers the optimal K and imporve both accuracy and efficiency.
+- To check whether an independent feature is important, you can tune K with and without the feature and evaluate the change in model performance.
 </details>
 </details>
