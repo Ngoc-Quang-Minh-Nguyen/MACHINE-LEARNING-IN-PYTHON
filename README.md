@@ -289,4 +289,14 @@ Applications:
 - Speech recognition, anomaly detection, and noise filtering
 
 </details>
+<details>
+<summary> LAB #10: KNN (Groups) </summary>
+
+- KNN can also works with classification and regression just like SVM.
+- This one focuses on grouping data points together like a blob.
+- K means that splitting all the inputs into k groups/classes
+- The prediction of the value will leads to either of those K classes.
+- To find an optimal k value, you can test a range of values and then measure the accuracy.
+- Remember to normalize and preprocess the data so that the model works the best.
+</details>
 </details>
