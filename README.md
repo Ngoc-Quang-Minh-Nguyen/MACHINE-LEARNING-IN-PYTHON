@@ -262,4 +262,31 @@ For instance:
 - This model tries to pick features that minimized errors between actual values and predicted ones.
 - Also the accuracy of the model is based on MSE and R^2 score. We want lower MSE and higher R^2 score for a good model.
 </details>
+<details>
+<summary> LAB #9: SVM (Hyperplane) </summary>
+
+- Support Vector Machines, this model works well with both classification and regression model.
+- Basically, given the input, each of those would turn into coordinates that would be graphed in a multidimentional graph (or 2D graph if it's not too complex).
+- This model will try and create a hyperplane that can seperate two classes.
+- Every time new inputs are added to the task, their classification depends on which side of the hyperplane they land. 
+- The point of the hyperplan is to have the greatest margin between the two classes. The larger the margin, the better the model's accuracy on new, unseen data.
+- Since real life sucks, SVM can incorporate a soft margin, which allows it to tolerate misclassifications while maximizing the margin.
+- The margin is the distance from the hyperplane to the closest points from each class.
+- Kernel is a process of turning the points into higher-dimentional graph. (Like plot 2D into 3D by adding z-axis)
+- Scikit-learn provides you with a choice of kernel functions to use with SVM: Linear, Polynomial, RBF (works with regression), Sigmoid (Logistic Regression)
+Advantages:
+- Effective in high-dimensional space
+- Robust in overfitting
+- Excels in linear separable data.
+- Works with weakly separable data using weak margin option. 
+Disadvantages:
+- Slow with large datasets
+- Sensitive to noise and outliers
+- Sensitive to kernal and parameters, which are non-trivial to determine.
+Applications:
+- Image analysis tasks, such as image classification and handwritten digit recognition. 
+- Parsing, spam detection, and sentiment analysis.
+- Speech recognition, anomaly detection, and noise filtering
+
+</details>
 </details>
