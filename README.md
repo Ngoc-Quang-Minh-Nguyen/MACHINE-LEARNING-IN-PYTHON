@@ -11,6 +11,8 @@ IMPORTANT FOR ALL LABS:
 - If the data is big, bias low (more accurate), variance high (very spread out)
 - If the variance is high, the model may overfit, take noise and outliers too often.
 - If the bias is high, the model may underfit, too wrong at times.
+- Bagging is a process that reduce variance.
+- Boosting is a process that reduce bias.
 <details>
 <summary><strong>PART 1: LINEAR REGRESSION</strong></summary>
 
@@ -18,7 +20,7 @@ IMPORTANT FOR ALL LABS:
 <summary>LAB #1: SIMPLE LINEAR REGRESSION</summary>
 
 
-- I think t n- I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
+- I think the name says it all. Given a dataset, you're trying to predict the target's value based on a certain feature. The feature should be the most correlated to the target as a result.
 - Personally, this was the easiest lab problem compares to all of the remaining labs, and it make sense.
 
 <details><summary>There were a lot of new terms I had to learn: </summary>
@@ -307,4 +309,16 @@ Applications:
 - Keeping only relevant features lowers the optimal K and imporve both accuracy and efficiency.
 - To check whether an independent feature is important, you can tune K with and without the feature and evaluate the change in model performance.
 </details>
+
+<details>
+<summary> LAB #11: RANDOM TREE (multiple trees) </summary>
+
+- Random forests is a bagging method that trains multiple decision trees on bootstrapped data sets.
+- In decision tree, the target is categorical. In regression tree, the target is a continuous value.
+- When a decision tree is used to solve regression problem, it is called Regression Tree.
+- Regression trees are created by recursively splitting the dataset into subsets to maximize information gained from data splitting.
+- This model tries to pick features that minimized errors between actual values and predicted ones.
+- Also the accuracy of the model is based on MSE and R^2 score. We want lower MSE and higher R^2 score for a good model.
+</details>
+
 </details>
