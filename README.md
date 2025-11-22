@@ -5,7 +5,12 @@
 - Throughout my published lab coding problems and my comments for those, I will explain them all in this file (Though I think that's the purpose of this README.md file anyway...)
 - Let's get to it! Also it's been months since the last time I've touch some of the lab problems and codes, so consider this as a revision of the things I've learnt, and what are some of the most important things I learnt from these.
 
-
+IMPORTANT FOR ALL LABS:
+- Bias refer to the inaccuracy of the model, variance refer to the spread of the model.
+- If the data is small, bias high (very inaccurate), variance low (don't spread much).
+- If the data is big, bias low (more accurate), variance high (very spread out)
+- If the variance is high, the model may overfit, take noise and outliers too often.
+- If the bias is high, the model may underfit, too wrong at times.
 <details>
 <summary><strong>PART 1: LINEAR REGRESSION</strong></summary>
 
