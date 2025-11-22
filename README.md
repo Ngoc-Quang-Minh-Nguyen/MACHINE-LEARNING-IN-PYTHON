@@ -11,8 +11,8 @@ IMPORTANT FOR ALL LABS:
 - If the data is big, bias low (more accurate), variance high (very spread out)
 - If the variance is high, the model may overfit, take noise and outliers too often.
 - If the bias is high, the model may underfit, too wrong at times.
-- Bagging is a process that reduce variance.
-- Boosting is a process that reduce bias.
+- Bagging is a process that reduce variance. Ex: Random Tree
+- Boosting is a process that increases model complexity and decreases bias. Ex: Gradient Boosting, XGBoost, and AdaBoost. 
 <details>
 <summary><strong>PART 1: LINEAR REGRESSION</strong></summary>
 
@@ -311,14 +311,12 @@ Applications:
 </details>
 
 <details>
-<summary> LAB #11: RANDOM TREE (multiple trees) </summary>
+<summary> LAB #11: RANDOM TREE (multiple trees) (Bagging) VS XGBOOST (Boosting) </summary>
 
 - Random forests is a bagging method that trains multiple decision trees on bootstrapped data sets.
-- In decision tree, the target is categorical. In regression tree, the target is a continuous value.
-- When a decision tree is used to solve regression problem, it is called Regression Tree.
-- Regression trees are created by recursively splitting the dataset into subsets to maximize information gained from data splitting.
-- This model tries to pick features that minimized errors between actual values and predicted ones.
-- Also the accuracy of the model is based on MSE and R^2 score. We want lower MSE and higher R^2 score for a good model.
+- It basically combine hundreds of simple trees that runs paralel to each other, therefore reducing variance
+- XGBoost, no clue how it works, but it resembles boosting, which increases accuracy but also its variance.
+- It also use MSE and R^2 Score to assess the model.
 </details>
 
 </details>
