@@ -318,9 +318,11 @@ Applications:
 - XGBoost, no clue how it works, but it resembles boosting, which increases accuracy but also its variance.
 - It also use MSE and R^2 Score to assess the model.
 </details>
-
 </details>
+
+<details>
 <summary> A BIT UNRELATED? </summary>
+	
 - I sent a turotial and lab instruction of KNN vs SVM, and not the actual code itself.
 - Partly because of laziness, but also I feel like the lab itself is already a good demonstration of the 2 model.
 - So I'ma put this in a different part compare to the four part upthere.
